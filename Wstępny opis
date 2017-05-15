@@ -10,7 +10,8 @@ Funkcjonalności :
 	-symulacja rzutu kostką k6 (pseudolosowy algorytm), przemieszczanie się po planszy o wylosowana liczbę
 	- 4 kategorie pytań, w zależności od miejsca zatrzymania na planszy, dodatkowe bonusowe pola tzn bez pytań
 	- implementacja 'licytacji" pomiędzy graczami o przedmioty gwarantujące zwycięstwo (patrz zasady gry PRL).
-	- implementacja pola z pytaniem plus 3 odpowiedzi (jedna prawidłowa), dobra odpowiedz - wyplata określonej kwoty pieniędzy, zła - nic się nie dzieje, kolejny gracz rozpoczyna runde.
+	- implementacja pola z pytaniem plus 3 odpowiedzi (jedna prawidłowa), dobra odpowiedz - wyplata określonej kwoty pieniędzy,
+	  zła - nic się nie dzieje, kolejny gracz rozpoczyna runde.
   - gra kończy się w momencie skończenia się pytań, co jest równoznaczne z brakiem możliwości licytowania towarów deficytowych.
   - wygrywa gracz z największa ilością towarów deficytowych (wygranych przez licytację).
   - w przypadku remisu towarow deficytowych - decyduje ilość zebranej, nie wykorzystanej gotówki.
