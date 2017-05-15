@@ -1,0 +1,16 @@
+Gra PRL
+
+Opis :
+Celem projektu jest stworzenie komputerowej wersji gry planszowej PRL w oparciu o technologie C#. 
+Gracze będą mogli w przyjazny sposób konkurować ze sobą o tytuł najbardziej obeznanej w realiach PRL osoby.
+Zaimplementowane zostane wszystkie niezbędne funkcjonalności potrzebne do prawidłowego działania gry, tj :
+
+Funkcjonalności :
+- implementacja zasad gry planszowej PRL :
+	-symulacja rzutu kostką k6 (pseudolosowy algorytm), przemieszczanie się po planszy o wylosowana liczbę
+	- 4 kategorie pytań, w zależności od miejsca zatrzymania na planszy, dodatkowe bonusowe pola tzn bez pytań
+	- implementacja 'licytacji" pomiędzy graczami o przedmioty gwarantujące zwycięstwo (patrz zasady gry PRL).
+	- implementacja pola z pytaniem plus 3 odpowiedzi (jedna prawidłowa), dobra odpowiedz - wyplata określonej kwoty pieniędzy, zła - nic się nie dzieje, kolejny gracz rozpoczyna runde.
+  - gra kończy się w momencie skończenia się pytań, co jest równoznaczne z brakiem możliwości licytowania towarów deficytowych.
+  - wygrywa gracz z największa ilością towarów deficytowych (wygranych przez licytację).
+  - w przypadku remisu towarow deficytowych - decyduje ilość zebranej, nie wykorzystanej gotówki.
